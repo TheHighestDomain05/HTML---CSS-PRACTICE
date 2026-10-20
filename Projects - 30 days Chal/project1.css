@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .card-body {
   background-color: #E0F7FA;
 }
@@ -7,27 +14,31 @@ h1 {
 }
 
 .photo-container {
-  height: 120px;
-  width: 240px;
+  height: 300px;
+  width: 300px;
   margin: 0 auto;
   overflow: hidden;
 }
 
 .photo-container img {
   display: block;
-  width: 100%;
+  width: 85%;
   height: 100%;
   object-fit: cover;
   object-position: 100% 65%;
-  transform: scale(3) translateX(3%);
+  transform: scale(1.5) translateX(3%);
 }
 
 p {
   text-align: center;
   padding: 10px;
+  font-family: ;
 }
 
 .btn-1, .btn-2, .btn-3, .btn-4 {
+  text-align: center;
+  text-decoration: none;
+  line-height: 60px;
   margin: 0 auto;
   display: block;
   margin-top: 20px;
