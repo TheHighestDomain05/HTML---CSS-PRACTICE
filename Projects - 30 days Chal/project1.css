@@ -11,6 +11,12 @@
 
 h1 {
   text-align: center;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .photo-container {
@@ -18,6 +24,8 @@ h1 {
   width: 300px;
   margin: 0 auto;
   overflow: hidden;
+  border-radius: 50%;
+  border: 10px solid rgb(0, 255, 34);
 }
 
 .photo-container img {
@@ -25,14 +33,19 @@ h1 {
   width: 85%;
   height: 100%;
   object-fit: cover;
-  object-position: 100% 65%;
+  object-position: center;
   transform: scale(1.5) translateX(3%);
+
 }
 
 p {
   text-align: center;
   padding: 10px;
-  font-family: ;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 30px;
 }
 
 .btn-1, .btn-2, .btn-3, .btn-4 {
@@ -42,7 +55,7 @@ p {
   margin: 0 auto;
   display: block;
   margin-top: 20px;
-  width: 600px;
+  width: 400px;
   height: 60px;
   border-radius: 9999px;
   cursor: pointer;
