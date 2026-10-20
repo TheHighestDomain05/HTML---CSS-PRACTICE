@@ -1,0 +1,7 @@
+body {
+    
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient( in oklab 120deg, #03001e, rgb(58, 1, 124) 80%,#11998e);
+}
+

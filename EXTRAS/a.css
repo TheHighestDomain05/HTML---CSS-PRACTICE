@@ -1,0 +1,8 @@
+.inline-element {
+    background-color: aquamarine;
+    height: 400px;
+    width: 400px;
+    padding: 100px 100px;
+    border: 20px solid red;
+    margin: 100px 100px;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>   
+    <title>Purchase Form</title>
+    <link rel="stylesheet" href="purchase-forms-style.css" />
+</head>
+
+<body>
+    <img
+    src="Jabee Logo.png"
+    alt="Jabebe">
+
+    <div class="contents">
+
+    <h1>Welcome to Jolibee!</h1>
+    <h4>May I take your order?</h4>
+
+    <p>Please help us to get know you more!</p>
+
+    <form>
+
+    <div>
+
+        <label for="Title">Title:</label>
+
+        <label for="Mr.">Mr.</label>
+        <input type="radio" id="Mr." name="Title" value="Mr.">
+
+        <label for="Mrs.">Mrs.</label>
+        <input type="radio" id="Mrs." name="Title" value="Mrs.">
+
+    </div>
+
+    <br>
+
+    <div>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="John" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Smith" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="pass" maxlength="20" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="sample@email.com" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="(123)-456-8790" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="bdate">Birthdate:</label>
+        <input type="date" id="bdate" name="bdate" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="quantity">Qty:</label>
+        <input type="number" id="quantity" name="quantity" min="0" max="100" value="1">
+    </div>
+
+    <br>
+
+    <div>
+        <label for="payment">Payment Options:</label>
+        <select id="payment" name="payment">
+            <option value="Visa">Visa</option>
+            <option value="Mastercard">Mastercard</option>
+            <option value="Gcash">GCash</option>
+            <option value="GoTyme">GoTyme</option>
+            <option value="Gift Card">Gift Card</option>
+            <option value="Maribank">MariBank</option>
+        </select>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="crd#">Card Number:</label>
+        <input 
+        type="text" 
+        id="crd#" 
+        name="card-number"
+        inputmode="numeric"
+        pattern="[0-9\s] {13,19}"
+        autocomplete="cc-number"
+        maxlength="19"
+        placeholder="1234 5678 8765 4321"
+        required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="Order">Are you going to order?</label>
+        <input type="checkbox" id="Order" name="Order">
+    </div>
+
+    <br>
+    
+    <input type="reset">
+    <input type="Submit">
+
+    </form>
+    </div>  
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+<style>
+    h1 {
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .introduction{
+        text-align: center;
+    }
+    .button-container{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 30px;
+        
+    }
+    .button-1{
+        background-color: rgb(56, 153, 0);
+        border-radius: 16px;
+        border-width: 1;
+        border: none;
+        height: 36px;
+        width: 85px;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+
+    }
+    .button-2{
+        background-color: rgb(56, 153, 0);
+        border-radius: 16px;
+        border: none;
+        height: 36px;
+        width: 85px;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+    }
+    #promo{
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight:bold;
+        cursor: pointer;
+        text-decoration: underline;
+
+    }
+</style>
+
+<h1>Prime Bookkeeping</h1>
+
+<p class="introduction">
+    Welcome to Prime Bookkeeping! where precision meets peace of mind. 
+    We help small businesses simplify their finances through accurate 
+    bookkeeping, timely financial reports, and dependable support. 
+    Whether you're just starting out or managing a growing company, 
+    our tailored bookkeeping solutions provide the financial clarity 
+    you need to make smarter business decisions and achieve long-term success.
+</p>
+
+<h3 id="promo">
+    FOR A LIMITED OFFER OF ONLY $59.99!! 
+</h3>
+
+
+<div class="button-container">
+
+<button onclick="window.open('https://prime-bookkeeping.my.canva.site/contact', '_blank')" class="button-1">
+    Contact Us
+</button>
+
+<button onclick="window.open('https://prime-bookkeeping.my.canva.site/', '_blank')" class="button-2">
+    About Us
+</button>
+</div>
+
+<script>
+    const colors = [
+    "red",
+    "blue",
+    "green",
+    "orange",
+    "purple",
+    "hotpink"
+];
+
+let index = 0;
+
+setInterval(function(){
+
+    document.getElementById("promo").style.color = colors[index];
+
+    index++;
+
+    if(index >= colors.length){
+        index = 0;
+    }
+
+},500);
+</script>

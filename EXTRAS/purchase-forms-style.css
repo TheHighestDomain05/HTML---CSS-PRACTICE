@@ -1,0 +1,27 @@
+body {
+
+    background: rgb(207, 15, 15);
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: -20px;
+    font-family: cursive;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+img {
+    
+    display: block;
+    justify-content: center;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.contents {
+
+    margin-top: -80px;
+}
