@@ -1,0 +1,41 @@
+body {
+    background-color:rgb(166, 250, 222)
+}
+
+.movie1,
+.movie2,
+.movie3 {
+    display: flex;
+    border-style: solid;
+    align-items: center;
+    padding: 20px;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+
+.movie1 img,
+.movie3 img {
+    display: flex;
+    padding-left: 20px;
+    height: 350px;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.movie2 img {
+    display: flex;
+    padding-left: 20px;
+    height: 350px;
+    width: 235px;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+.movie-info1 {
+    padding: 20px;
+    font-family: "Space Grotesk", sans-serif;
+}

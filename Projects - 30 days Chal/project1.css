@@ -22,7 +22,7 @@ h1 {
 .photo-container {
   height: 300px;
   width: 300px;
-  margin: 0 auto;
+  margin: 30px auto;
   overflow: hidden;
   border-radius: 50%;
   border: 10px solid rgb(0, 255, 34);
