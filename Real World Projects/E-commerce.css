@@ -1,33 +1,127 @@
 h1 {
-    
-    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 50px;
     font-family: "Sora", sans-serif;
+    font-size: 40px;
+}
+
+hr {
+
+    margin-top: -10px;
+    margin-bottom: 20px;
+    border: none;
+    border-top: 1px solid #ccc;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.promo {
+    text-align: center;
+    padding: 10px 0;
+    font-family: "Sora", sans-serif;
+    background-color: #C4DFFF;
+    color: black;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.promo p {
+    margin: 0;
+}
+
+.header-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px 30px;
+}
+
+.brand {
+    display: flex;
+    align-self: center;
+    gap: 12px;
+    
+}
+
+.logo {
+
+    height: 145px;
+    width: 160px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .navbar ul {
 
     list-style-type:none;
     background-color:bisque;
-    
-    padding: 0px;
-    margin: 0px;
+    font-family: "Sora", sans-serif;
     display: flex;
     gap: 20px;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border-radius: 8px;
+    
 }
 
 .navbar a {
-    color: white;
+    color: rgb(8, 0, 0);
     text-decoration: none;
-    padding: 15px;
-    display: block;
+    padding: 20px 60px;
+    display: flex;
     text-align: center;
+    transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .navbar a:hover {
 
     background-color:black;
+    color: white;
     
+
+}
+
+.content-1 {
+
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    max-width: 1100px;
+    gap: 30px;
+    
+}
+
+.content-1 img {
+    height: auto;
+    width: 750px;
+    border-radius: 12px;
+
+}
+
+.text-content {
+    flex: 1;
+    width: auto;
+}
+
+.text-content h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-family: "Sora", sans-serif;
+    font-size: 28px;
+}
+
+.text-content p {
+  width: 100%;          /* Uses full width of the text container */
+  max-width: 100%;
+  font-size: 20px;
+  margin: 0;
+  line-height: 1.6;
+  color: #4a4a4a;
 }
 
