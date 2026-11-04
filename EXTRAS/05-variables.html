@@ -4,14 +4,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="variables.css">
 
-  <title>Variables</title>
+  <title>Cart Quantity</title>
 
 </head>
 <body>
   
+  <button onclick="console.log(`Your cart quantity is: ${cartQuantity}`)" class="btn">Show Quantity</button>
+
+  <button onclick=" 
+  cartQuantity = cartQuantity + 1; 
+  console.log(`Cart quantity: ${cartQuantity}`)
+  " class="btn">Add to Cart</button>
+
+  <button onclick=" 
+  cartQuantity = cartQuantity + 2; 
+  console.log(`Cart quantity: ${cartQuantity}`)
+  " class="btn1">+2</button>
+
+  <button onclick=" 
+  cartQuantity = 0; 
+  console.log(`Cart was reset.`);
+  console.log(`Cart quantity: ${cartQuantity}`)
+  " class="btn">Reset Cart</button>
+
+
   <script>
-    let variable1 = 3;
+
+      let cartQuantity = 0;
+
+
+    /*let variable1 = 3;
     console.log(variable1);
 
 
@@ -23,7 +47,8 @@
     console.log(result);
 
     let message = 'Hi hello';
-    console.log(message);
+    console.log(message);*/
   </script>
+
 </body>
 </html>
